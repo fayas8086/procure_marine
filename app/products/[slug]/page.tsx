@@ -235,7 +235,7 @@ export default function ProductPage({ params }: ProductPageProps) {
                       className={index % 2 === 0 ? 'bg-gray-50 dark:bg-gray-800/50' : ''}
                     >
                       <td className="px-6 py-4 font-semibold text-text-light dark:text-text-dark w-1/3">
-                        {spec.name}
+                        {spec.label}
                       </td>
                       <td className="px-6 py-4 text-text-muted-light dark:text-text-muted-dark">
                         {spec.value}

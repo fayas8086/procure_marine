@@ -90,7 +90,7 @@ export default function CheckoutPage() {
           notes: formData.deliveryNotes || undefined,
         },
         additionalNotes: formData.additionalNotes || undefined,
-        submittedAt: new Date().toISOString(),
+        submittedAt: new Date(),
       };
       
       // Send order email
